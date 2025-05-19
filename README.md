@@ -44,5 +44,4 @@
 - if disconnect machine then connect this cmd
 - ssh -i <secret.pem>  ubuntu@ec2-2218.eu-north-1.compute.amazonahgyws.com
 - install node matched from machine node version 
- # IshqRaah-web
-# Devtinder-web
+- git clone backend , web
