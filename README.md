@@ -45,3 +45,14 @@
 - ssh -i <secret.pem>  ubuntu@ec2-2218.eu-north-1.compute.amazonahgyws.com
 - install node matched from machine node version 
 - git clone backend , web
+- go to web file
+    - then install dependency :- npm install 
+    - then run command :- npm run bulid 
+    - now run this cammand:- sudo apt update 
+    - again ru this cammand:- sudo apt nginx
+    - now run: sudo systemctl start nginx
+    - now run: sudo systemctl enable nginx
+    - now again go to cd web 
+    - then:-  sudo scp -r dist/* /var/www/html/
+    - Enable port :80 of your instance
+ 
