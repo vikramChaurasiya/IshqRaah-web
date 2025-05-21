@@ -53,6 +53,7 @@
     - now run: sudo systemctl start nginx
     - now run: sudo systemctl enable nginx
     - now again go to cd web 
+    - copy code from dist(build file) to var/ww/html:- scp -r dist/* /var/www/html/
     - then:-  sudo scp -r dist/* /var/www/html/
     - Enable port :80 of your instance
  
