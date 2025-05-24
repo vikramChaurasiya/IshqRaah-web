@@ -45,11 +45,12 @@
 - ssh -i <secret.pem>  ubuntu@ec2-2218.eu-north-1.compute.amazonahgyws.com
 - install node matched from machine node version 
 - git clone backend , web
+    - command: git clone repo_link_http
 - go to web file
     - then install dependency :- npm install 
     - then run command :- npm run bulid 
     - now run this cammand:- sudo apt update 
-    - again ru this cammand:- sudo apt nginx
+    - again ru this cammand:- sudo apt install nginx
     - now run: sudo systemctl start nginx
     - now run: sudo systemctl enable nginx
     - now again go to cd web 
